@@ -1,16 +1,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="autoprocess",  # Your package name
-    version="0.1.0",  # Update this for new versions
+    name="autoprocess",  # Package name on PyPI
+    version="0.1.0",  # Update version for each new release
     author="Shubham",
     author_email="shubhamsinghalswm123@gmail.com",
     description="Automated data preprocessing library using Google's Gemini AI",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ShubhamS1101/CleanGPT01",
-    packages=find_packages(where="src"),  # Looks for packages inside 'src'
-    package_dir={"": "src"},
+    packages=find_packages(where="generate/src"),  # Finds packages inside generate/src
+    package_dir={"": "generate/src"},  # Tell setuptools where the package starts
     install_requires=[
         "numpy>=1.18.0",
         "pandas>=1.0.0",
