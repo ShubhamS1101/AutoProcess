@@ -3,9 +3,9 @@ from .helper import*
 
 
 class SkewCorrectionPipeline:
-    def __init__(self, api_key: str, model_name="gemini-1.5-flash"):
-        self.model_name = model_name
-        self.model = initialize_gemini(api_key, model_name)
+    def __init__(self, api_key: str):
+        
+        self.model = initialize_gemini(api_key)
         if not self.model:
             raise ValueError("Invalid API key or model initialization failed")
         
