@@ -28,4 +28,4 @@ dependencies = [
 "Homepage" = "https://github.com/ShubhamS1101/CleanGPT01"
 
 [tool.hatch.build.targets.wheel]
-packages = ["autoprocess"]
+packages = ["generate/src/autoprocess"]
