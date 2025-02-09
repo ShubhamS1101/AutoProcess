@@ -11,7 +11,7 @@ authors = [
 description = "Automated data preprocessing library using Google's Gemini AI"
 readme = "README.md"
 requires-python = ">=3.7"
-license = {file= "LICENSE"}
+license = "Apache-2.0"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",
@@ -28,4 +28,4 @@ dependencies = [
 "Homepage" = "https://github.com/ShubhamS1101/CleanGPT01"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/autoprocess"]
+packages = ["autoprocess"]
