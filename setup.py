@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="autoprocess",  
+    name="autoprocess_iitg",  
     version="0.1.0",  
     author="Shubham",
     author_email="shubhamsinghalswm123@gmail.com",
