@@ -6,6 +6,6 @@ AutoProcess is a Python library that leverages the power of Google's Gemini AI t
 ## Features
 
 - Data Cleaning: Handles missing values, outliers, and duplicates
-**0Data Transformation**: Manages datatype conversions, categorical encoding, and feature scaling
-Feature Engineering: Generates domain-aware feature creation strategies
-Skew Correction: Applies appropriate transformations to correct skewed distributions
+- Data Transformation: Manages datatype conversions, categorical encoding, and feature scaling
+- Feature Engineering: Generates domain-aware feature creation strategies
+- Skew Correction: Applies appropriate transformations to correct skewed distributions
