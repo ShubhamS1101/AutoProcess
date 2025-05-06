@@ -6,3 +6,15 @@
 
 ## 📁 Project Structure
 
+AutoProcess/
+├── generate/
+│ └── src/
+│ └── autoprocess/
+│ ├── cleaning.py
+│ ├── feature_eng.py
+│ ├── helper.py
+│ ├── transforming.py
+│ └── unskew.py
+├── LICENSE
+├── README.md
+└── setup.py
