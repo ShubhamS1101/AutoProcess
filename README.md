@@ -65,7 +65,7 @@ Deals with highly skewed distributions:
 ## ⚙️ Installation
 
 ```bash
-pip install .
+pip install autoprocess_iitg
 ```
 
 ---
