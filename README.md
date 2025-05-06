@@ -1,11 +1,8 @@
-## AutoProcess: Automated Data Preprocessing Library
+# AutoProcess
 
-AutoProcess is a Python library that leverages the power of Google's Gemini AI to automate various data preprocessing tasks. It provides intelligent, context-aware solutions for data cleaning, transformation, feature engineering, and skew correction.
+**AutoProcess** is a modular Python package for automated data preprocessing, designed to streamline data preparation tasks such as cleaning, transformation, feature engineering, and more.
 
+---
 
-## Features
+## 📁 Project Structure
 
-- Data Cleaning: Handles missing values, outliers, and duplicates
-- Data Transformation: Manages datatype conversions, categorical encoding, and feature scaling
-- Feature Engineering: Generates domain-aware feature creation strategies
-- Skew Correction: Applies appropriate transformations to correct skewed distributions
